@@ -13,7 +13,7 @@ videos: List[VideoClip] = []
 
 @app.get("/")
 def welcome_message():
-    return{"message": "Welcome To calculate video duration api"}
+    return {"message": "Welcome To calculate video duration api."}
 
 @app.post("/videos")
 def calculate_duration(video: VideoClip):
