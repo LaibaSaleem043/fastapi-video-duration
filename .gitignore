@@ -23,3 +23,7 @@ Thumbs.db
 # Video/media files (if any)
 *.mp4
 *.mov
+
+
+# sample file
+main.py
